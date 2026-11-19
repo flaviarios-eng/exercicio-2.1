@@ -1,0 +1,13 @@
+Sou aluna do mestrado em Ciencia de Dados e IA, na disciplina de Transformacao Digital do Governo, e preciso produzir um mapa de atores da jornada de um servico publico. O servico escolhido e o Atendimento ao Seguro-Desemprego pela URA (Unidade de Resposta Audivel, o atendimento telefonico automatizado por menus de voz) da Caixa Economica Federal. Nesse servico, o cidadao que perdeu o emprego liga para a central telefonica, navega pelos menus de voz, e roteado entre o autoatendimento automatizado e atendentes humanos e, quando tudo funciona, obtem uma resposta: situacao do beneficio, parcelas, pendencias, agendamento ou encaminhamento para uma agencia ou posto de atendimento presencial. O Seguro-Desemprego e uma politica do Ministerio do Trabalho e Emprego, e a Caixa atua como agente pagador e operadora do atendimento.
+
+Meu objetivo NAO e receber a pesquisa agora. Quero que voce ELABORE UM PROMPT para um assistente de deep research realizar uma pesquisa aprofundada sobre esse servico. O resultado dessa pesquisa sera usado depois como contexto para uma entrevista com outra IA, na qual eu vou decidir o mapa final de atores. Por isso, a pesquisa precisa ser rica em contexto e em evidencias, e nao generica.
+
+O prompt que voce elaborar deve pedir que a pesquisa:
+1. Identifique todos os atores envolvidos, direta ou indiretamente, partindo do cidadao e expandindo em circulos: usuarios diretos e suas familias; operadores de linha de frente (atendentes, inclusive terceirizados); gestores e decisores (Caixa e Ministerio do Trabalho e Emprego); orgaos de controle (TCU, CGU, Ministerio Publico); fornecedores de tecnologia (URA, telefonia, sistemas de dados como o CNIS e a base do Seguro-Desemprego); intermediarios (sindicatos, empregadores, contadores, advogados); e orgaos normatizadores e judiciario (CODEFAT, legislacao do beneficio).
+2. Destrinche subgrupos dentro de cada categoria (por exemplo, cidadaos com baixa letramento digital, idosos, pessoas com deficiencia auditiva).
+3. Para cada ator, descreva o papel na jornada, em que momento ele entra e sai, o que ganha ou perde com o servico atual e por que pode resistir a mudancas.
+4. Inclua os atores invisiveis ao cidadao, como sistemas automatizados, retaguarda, auditoria e quem normatiza.
+5. Aponte os principais problemas conhecidos do atendimento (filas, quedas de ligacao, menus confusos, demanda de falha).
+6. Cite fontes verificaveis (sites oficiais, normas, relatorios de auditoria, noticias) e diferencie o que e fato documentado do que e inferencia.
+
+Antes de escrever o prompt, me faca perguntas se faltar alguma informacao importante.
