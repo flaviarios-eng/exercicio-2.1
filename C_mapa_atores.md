@@ -199,14 +199,14 @@ flowchart TB
 
 ## 4. Matriz RACI complementar — "Minha parcela não caiu" (Rodadas 9 e 10)
 
-A frase do cidadão pode corresponder a problemas diferentes, por isso o **A** varia conforme a situação. As colunas C e I são definidas no caso concreto, sem presumir que todos os atores tenham acesso irrestrito aos dados do cidadão.
+A frase do cidadão pode corresponder a problemas diferentes, por isso o **A** varia conforme a situação. Na Rodada 9, a aluna decidiu que C e I seriam definidos conforme a situação concreta. Depois da entrevista, ela aprovou o preenchimento abaixo, uma situação por linha, usando apenas atores do mapa. Ser consultado ou informado não pressupõe acesso irrestrito aos dados do cidadão.
 
-| Situação identificada | R — Executa | A — Responde pelo resultado da etapa | C | I |
+| Situação identificada | R — Executa | A — Responde pelo resultado da etapa | C — Consultado | I — Informado |
 |---|---|---|---|---|
-| Parcela não liberada por problema de habilitação ou bloqueio administrativo | Área competente do MTE | **MTE — gestão do benefício** | Definir no caso concreto | Definir no caso concreto |
-| Parcela liberada, mas pagamento não processado corretamente pela CAIXA | CAIXA — gestão de pagamentos | **CAIXA — gestão de pagamentos** | Definir no caso concreto | Definir no caso concreto |
-| Crédito enviado para outra instituição, mas não localizado na conta de destino | CAIXA e banco recebedor, conforme a etapa em que ocorreu a falha | **Responsável pela etapa comprovadamente falha**, a identificar após rastreamento | Definir no caso concreto | Definir no caso concreto |
-| Informação cadastral inconsistente | Órgão ou entidade responsável pelo dado de origem | **Responsável pela correção cadastral**, conforme o tipo de inconsistência | Definir no caso concreto | Definir no caso concreto |
+| Parcela não liberada por problema de habilitação ou bloqueio administrativo | Área competente do MTE | **MTE — gestão do benefício** | Sine estadual/municipal e MTE — SRTE (atendimento presencial); Dataprev (sistema) | Trabalhador titular; CAIXA — gestão de pagamentos |
+| Parcela liberada, mas pagamento não processado corretamente pela CAIXA | CAIXA — gestão de pagamentos | **CAIXA — gestão de pagamentos** | MTE — gestão do benefício (retorno pago/não pago) | Trabalhador titular; CAIXA — atendimento CAIXA Cidadão |
+| Crédito enviado para outra instituição, mas não localizado na conta de destino | CAIXA e banco recebedor, conforme a etapa em que ocorreu a falha | **Responsável pela etapa comprovadamente falha**, a identificar após rastreamento | CAIXA — SAC e Ouvidoria | Trabalhador titular; MTE — gestão do benefício |
+| Informação cadastral inconsistente | Responsável pelo dado de origem (Empregador/RH ou Receita Federal) | **Responsável pela correção cadastral**, conforme o tipo de inconsistência | MTE — gestão do benefício; Dataprev | Trabalhador titular |
 | **Diagnóstico e coordenação da resolução interinstitucional do episódio completo** | **Não identificado** | **Não identificado** | — | — |
 
 A última linha registra uma **lacuna de responsabilização documental**: as fontes examinadas não demonstram um coordenador do episódio, mas isso não prova que a coordenação inexista na prática (Rodada 10).
