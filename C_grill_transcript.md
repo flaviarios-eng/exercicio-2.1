@@ -13,6 +13,23 @@
 
 ---
 
+## Índice das 10 rodadas (resumo elaborado a partir da transcrição integral abaixo)
+
+| Rodada | Tema da pergunta | Decisão da aluna | Atores e nós citados na rodada |
+|---|---|---|---|
+| 1 | Fronteira do mapa | (b) episódio de resolução, com a URA da CAIXA no centro; TCU fora do mapa principal | Cidadão/trabalhador, URA da CAIXA, CAIXA, MTE, empregador, Dataprev, Receita Federal, banco recebedor, Central 158, Sine, TCU |
+| 2 | Coerência do critério (controle e normas) | Três níveis: mapa principal, círculo externo e fora do mapa; TCU, CODEFAT, CGU e BCB/CMN no círculo externo; Ouvidoria do MTE e Judiciário/MP/Defensorias no principal | TCU, CODEFAT, CGU, Ouvidoria do MTE, BCB/CMN, Judiciário, Ministério Público, Defensorias |
+| 3 | URA: ator ou canal? | (c) modelo híbrido: URA como nó sociotécnico central, CAIXA como responsável | URA, Central 158, Sistema do Seguro-Desemprego (Dataprev), gov.br, CAIXA Tem, CTPS Digital/Emprega Brasil, Empregador Web/eSocial, Portal de Demandas CAIXA–MTE |
+| 4 | Critério dos sistemas × tabela | Nó só com duas condições (participa do episódio e é etapa autônoma); Central 158 separada em canal e operadores | URA, Central 158, Operadores do Contact Center 158, INSS, MTE, Sistema do Seguro-Desemprego, CTPS Digital/Emprega Brasil, gov.br, CAIXA Tem, Empregador Web/eSocial, Portal de Demandas |
+| 5 | Granularidade da CAIXA e do MTE | CAIXA em 4 (gestão de pagamentos, atendimento CAIXA Cidadão, SAC e Ouvidoria, rede presencial); MTE em 4 (gestão do benefício, gestão e fiscalização contratual, SRTE, Ouvidoria); fornecedores condicionais; fiscalização contratual no círculo externo, com seta financeira "remuneração da URA — Contrato 11/2021" | CAIXA (gestão de pagamentos, CAIXA Cidadão, SAC e Ouvidoria, rede presencial), fornecedores terceirizados potenciais, MTE (gestão do benefício, gestão e fiscalização contratual, SRTE, Ouvidoria) |
+| 6 | Segmentação do cidadão | (c) titular como ator central; dois subgrupos; familiares como ator auxiliar condicional (seta tracejada) | Trabalhador titular, usuários rurais e com baixo letramento digital, pessoas surdas ou com deficiência auditiva ou de fala, familiares e pessoas de apoio |
+| 7 | Atores de origem da falha | Camada de fluxos de exceção; Dataprev organização separada do nó técnico | Empregador/RH, Receita Federal, banco recebedor, Dataprev (organização), Sine estadual/municipal |
+| 8 | Reconciliação das camadas | Dataprev, Judiciário, MP, Defensorias e MGI na exceção; INSS (158) e operadores do 158 no principal; pescadores e INSS legado fora do mapa | Dataprev, Judiciário, Ministério Público, Defensorias Públicas, INSS, MGI, pescadores artesanais, INSS legado do seguro-defeso, operadores do Contact Center 158 |
+| 9 | Formato e tipos de relação | Formato B (mermaid + tabela) com RACI complementar; 5 tipos de relação (atendimento, encaminhamento, dados, financeira, governança); tracejado = hipótese | MTE (gestão do benefício), CAIXA (gestão de pagamentos), banco recebedor, responsável pelo dado de origem |
+| 10 | Coordenação do episódio | (b) ausência de coordenador documentado representada explicitamente no diagrama e na RACI | CAIXA, MTE, Central 158, cidadão |
+
+---
+
 ## Rodada 1
 
 ### Pergunta do entrevistador (Claude — grill-me)
@@ -77,13 +94,13 @@ Além disso, você mesma abriu a porta de um **"círculo externo"** para atores 
 
 ### **Aplicação do critério**
 
-| Ator                              | Classificação                        | Justificativa                                                                                                                                                                                                                          |
-| --------------------------------- | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **TCU**                           | Círculo externo                      | Fiscaliza e avalia o desempenho do serviço, influenciando sua melhoria, mas não resolve demandas individuais.                                                                                                                          |
-| **CODEFAT**                       | Círculo externo                      | Define regras que condicionam a concessão e os procedimentos do benefício, mas não atua nos atendimentos individuais.                                                                                                                  |
-| **CGU / Ouvidoria do MTE**        | Mista                                | A Ouvidoria do MTE fica no **mapa principal**, pois recebe e encaminha manifestações individuais. A CGU fica no **círculo externo**, por sua atuação em supervisão e controle, ressalvadas suas competências relacionadas à ouvidoria. |
-| **BCB / CMN**                     | Círculo externo                      | Estabelecem e supervisionam regras aplicáveis aos canais bancários, sem atuar normalmente na solução operacional da parcela.                                                                                                           |
-| **Judiciário / MP / Defensorias** | Mapa principal, em fluxo excepcional | Podem participar da resolução de casos individuais quando a demanda administrativa não é solucionada e o cidadão recorre às vias jurídicas. Suas competências são distintas.                                                           |
+| Ator | Classificação | Justificativa |
+| --- | --- | --- |
+| **TCU** | Círculo externo | Fiscaliza e avalia o desempenho do serviço, influenciando sua melhoria, mas não resolve demandas individuais. |
+| **CODEFAT** | Círculo externo | Define regras que condicionam a concessão e os procedimentos do benefício, mas não atua nos atendimentos individuais. |
+| **CGU / Ouvidoria do MTE** | Mista | A Ouvidoria do MTE fica no **mapa principal**, pois recebe e encaminha manifestações individuais. A CGU fica no **círculo externo**, por sua atuação em supervisão e controle, ressalvadas suas competências relacionadas à ouvidoria. |
+| **BCB / CMN** | Círculo externo | Estabelecem e supervisionam regras aplicáveis aos canais bancários, sem atuar normalmente na solução operacional da parcela. |
+| **Judiciário / MP / Defensorias** | Mapa principal, em fluxo excepcional | Podem participar da resolução de casos individuais quando a demanda administrativa não é solucionada e o cidadão recorre às vias jurídicas. Suas competências são distintas. |
 
 ### **Revisão da decisão anterior**
 
@@ -136,16 +153,16 @@ Para evitar que o mapa fique excessivamente complexo, a inclusão também depend
 
 ### **2. Classificação dos sistemas**
 
-| Sistema ou canal                            | Representação          | Justificativa                                                                                                                               |
-| ------------------------------------------- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| **URA da CAIXA**                            | Nó próprio — central   | É o objeto do estudo e o principal ponto de interação automatizada, podendo resolver, encaminhar ou não solucionar a demanda.               |
-| **Central 158**                             | Nó próprio             | Representa um canal alternativo de atendimento, relevante para compreender encaminhamentos e recontatos.                                    |
-| **Sistema do Seguro-Desemprego (Dataprev)** | Nó próprio             | Processa informações essenciais à situação do benefício, podendo influenciar o resultado das consultas e a resolução das inconsistências.   |
-| **gov.br**                                  | Nó próprio, secundário | Problemas de autenticação podem impedir o acesso digital e motivar a procura pelo atendimento telefônico.                                   |
-| **CAIXA Tem**                               | Rótulo de canal        | É uma alternativa de consulta e movimentação de valores, vinculada à CAIXA. Pode aparecer nas relações com o cidadão sem exigir nó próprio. |
-| **CTPS Digital / Emprega Brasil**           | Rótulo de canal        | São interfaces digitais para solicitação e acompanhamento do benefício, representadas nas relações entre cidadão e MTE.                     |
-| **Empregador Web / eSocial**                | Rótulo de sistema      | Representam mecanismos de envio e registro de informações, associados às relações entre empregadores e instituições responsáveis.           |
-| **Portal de Demandas CAIXA–MTE**            | Rótulo de integração   | É um instrumento de comunicação institucional entre CAIXA e MTE, sem interação direta do cidadão.                                           |
+| Sistema ou canal | Representação | Justificativa |
+| --- | --- | --- |
+| **URA da CAIXA** | Nó próprio — central | É o objeto do estudo e o principal ponto de interação automatizada, podendo resolver, encaminhar ou não solucionar a demanda. |
+| **Central 158** | Nó próprio | Representa um canal alternativo de atendimento, relevante para compreender encaminhamentos e recontatos. |
+| **Sistema do Seguro-Desemprego (Dataprev)** | Nó próprio | Processa informações essenciais à situação do benefício, podendo influenciar o resultado das consultas e a resolução das inconsistências. |
+| **gov.br** | Nó próprio, secundário | Problemas de autenticação podem impedir o acesso digital e motivar a procura pelo atendimento telefônico. |
+| **CAIXA Tem** | Rótulo de canal | É uma alternativa de consulta e movimentação de valores, vinculada à CAIXA. Pode aparecer nas relações com o cidadão sem exigir nó próprio. |
+| **CTPS Digital / Emprega Brasil** | Rótulo de canal | São interfaces digitais para solicitação e acompanhamento do benefício, representadas nas relações entre cidadão e MTE. |
+| **Empregador Web / eSocial** | Rótulo de sistema | Representam mecanismos de envio e registro de informações, associados às relações entre empregadores e instituições responsáveis. |
+| **Portal de Demandas CAIXA–MTE** | Rótulo de integração | É um instrumento de comunicação institucional entre CAIXA e MTE, sem interação direta do cidadão. |
 
 A classificação poderá ser revista se a pesquisa demonstrar que algum sistema inicialmente representado apenas como rótulo constitui um ponto decisivo de falha ou encaminhamento.
 
@@ -199,16 +216,16 @@ Assim, não basta um sistema poder apresentar falhas. É necessário que ele rep
 
 ### **2. Aplicação aos sistemas**
 
-| Sistema ou canal                            | Representação                | Justificativa                                                                                                                       |
-| ------------------------------------------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| **URA da CAIXA**                            | Nó central                   | É a etapa automatizada que inicia o atendimento estudado e pode resolver, encaminhar ou interromper a jornada.                      |
-| **Central 158**                             | Nó de canal + atores humanos | Constitui uma etapa alternativa de atendimento, com operadores e responsabilidades próprias.                                        |
-| **Sistema do Seguro-Desemprego (Dataprev)** | Nó técnico                   | Pode constituir etapa de consulta ou reprocessamento necessária à resolução de inconsistências.                                     |
-| **CTPS Digital / Emprega Brasil**           | Nó secundário                | Permitem acompanhar o benefício e identificar indeferimentos, podendo constituir etapa distinta de esclarecimento ou recurso.       |
-| **gov.br**                                  | Rótulo de autenticação       | É um mecanismo de acesso às interfaces digitais. Só se tornaria nó em um episódio específico de recuperação de identidade digital.  |
-| **CAIXA Tem**                               | Rótulo de canal              | Será identificado na relação cidadão–CAIXA quando funcionar apenas como alternativa de consulta, sem etapa adicional de resolução.  |
-| **Empregador Web / eSocial**                | Rótulo de sistemas           | Representam a origem ou transmissão de informações do empregador, sem presumir que o cidadão interaja com eles durante a resolução. |
-| **Portal de Demandas CAIXA–MTE**            | Rótulo de integração         | Representa a comunicação institucional de bastidor, sem etapa autônoma demonstrada na jornada do cidadão.                           |
+| Sistema ou canal | Representação | Justificativa |
+| --- | --- | --- |
+| **URA da CAIXA** | Nó central | É a etapa automatizada que inicia o atendimento estudado e pode resolver, encaminhar ou interromper a jornada. |
+| **Central 158** | Nó de canal + atores humanos | Constitui uma etapa alternativa de atendimento, com operadores e responsabilidades próprias. |
+| **Sistema do Seguro-Desemprego (Dataprev)** | Nó técnico | Pode constituir etapa de consulta ou reprocessamento necessária à resolução de inconsistências. |
+| **CTPS Digital / Emprega Brasil** | Nó secundário | Permitem acompanhar o benefício e identificar indeferimentos, podendo constituir etapa distinta de esclarecimento ou recurso. |
+| **gov.br** | Rótulo de autenticação | É um mecanismo de acesso às interfaces digitais. Só se tornaria nó em um episódio específico de recuperação de identidade digital. |
+| **CAIXA Tem** | Rótulo de canal | Será identificado na relação cidadão–CAIXA quando funcionar apenas como alternativa de consulta, sem etapa adicional de resolução. |
+| **Empregador Web / eSocial** | Rótulo de sistemas | Representam a origem ou transmissão de informações do empregador, sem presumir que o cidadão interaja com eles durante a resolução. |
+| **Portal de Demandas CAIXA–MTE** | Rótulo de integração | Representa a comunicação institucional de bastidor, sem etapa autônoma demonstrada na jornada do cidadão. |
 
 A classificação é aplicada à **função desempenhada no episódio**, não à importância geral da tecnologia. Por exemplo, se um problema no CAIXA Tem exigir procedimentos próprios de recuperação de acesso, ele poderá ser representado como nó naquele fluxo específico.
 
@@ -265,13 +282,13 @@ O critério de granularidade será: **se dois grupos da mesma instituição poss
 
 ### **1. CAIXA — 4 atores funcionais**
 
-| Ator                                     | Incentivo ou interesse predominante                                                               | Decisão                                                                                |
-| ---------------------------------------- | ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| **1. CAIXA — gestão de pagamentos**      | Efetivar pagamentos corretamente, cumprir obrigações contratuais e controlar custos operacionais. | Separado                                                                               |
-| **2. CAIXA — atendimento CAIXA Cidadão** | Atender demandas, fornecer informações e cumprir indicadores de atendimento.                      | Separado                                                                               |
-| **3. CAIXA — SAC e Ouvidoria**           | Tratar reclamações, corrigir falhas e cumprir exigências regulatórias.                            | Agrupados                                                                              |
-| **4. CAIXA — rede presencial**           | Executar serviços presenciais dentro das atribuições de cada unidade.                             | Agências, lotéricas e correspondentes agrupados, com funções diferenciadas nas fichas. |
-| Fornecedores terceirizados potenciais    | Executar serviços contratados e cumprir metas comerciais e operacionais.                          | Não entram como atores confirmados.                                                    |
+| Ator | Incentivo ou interesse predominante | Decisão |
+| --- | --- | --- |
+| **1. CAIXA — gestão de pagamentos** | Efetivar pagamentos corretamente, cumprir obrigações contratuais e controlar custos operacionais. | Separado |
+| **2. CAIXA — atendimento CAIXA Cidadão** | Atender demandas, fornecer informações e cumprir indicadores de atendimento. | Separado |
+| **3. CAIXA — SAC e Ouvidoria** | Tratar reclamações, corrigir falhas e cumprir exigências regulatórias. | Agrupados |
+| **4. CAIXA — rede presencial** | Executar serviços presenciais dentro das atribuições de cada unidade. | Agências, lotéricas e correspondentes agrupados, com funções diferenciadas nas fichas. |
+| Fornecedores terceirizados potenciais | Executar serviços contratados e cumprir metas comerciais e operacionais. | Não entram como atores confirmados. |
 
 **Justificativa:** a área de pagamentos pode considerar uma operação corretamente processada enquanto o atendimento recebe reclamações de cidadãos que não receberam o crédito. Separar esses grupos permite representar esse conflito de perspectivas.
 
@@ -281,12 +298,12 @@ Os fornecedores terceirizados permanecem como **atores condicionais**, em uma re
 
 ### **2. MTE — 4 atores funcionais**
 
-| Ator                                          | Incentivo ou interesse predominante                                                                      | Decisão                      |
-| --------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ---------------------------- |
-| **1. MTE — gestão do benefício**              | Garantir a concessão e o pagamento conforme os critérios legais, controlando irregularidades e recursos. | Separado                     |
-| **2. MTE — gestão e fiscalização contratual** | Verificar a execução dos contratos, atestar serviços e controlar despesas e resultados.                  | Gestores e fiscais agrupados |
-| **3. MTE — SRTE**                             | Prestar atendimento presencial e solucionar demandas dentro de suas competências.                        | Separado                     |
-| **4. MTE — Ouvidoria**                        | Receber, encaminhar e acompanhar manifestações dos cidadãos.                                             | Separado                     |
+| Ator | Incentivo ou interesse predominante | Decisão |
+| --- | --- | --- |
+| **1. MTE — gestão do benefício** | Garantir a concessão e o pagamento conforme os critérios legais, controlando irregularidades e recursos. | Separado |
+| **2. MTE — gestão e fiscalização contratual** | Verificar a execução dos contratos, atestar serviços e controlar despesas e resultados. | Gestores e fiscais agrupados |
+| **3. MTE — SRTE** | Prestar atendimento presencial e solucionar demandas dentro de suas competências. | Separado |
+| **4. MTE — Ouvidoria** | Receber, encaminhar e acompanhar manifestações dos cidadãos. | Separado |
 
 A separação é necessária porque **o interesse da gestão do benefício não é necessariamente idêntico ao da fiscalização contratual**. Uma área acompanha a regularidade da concessão; a outra verifica a prestação dos serviços contratados.
 
@@ -365,12 +382,12 @@ A segmentação não depende de comprovação estatística da quantidade de usu�
 
 ### **2. Aplicação aos quatro segmentos**
 
-| Segmento                                                  | Representação              | Justificativa                                                                                                                        |
-| --------------------------------------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| **Trabalhador requerente típico**                         | Ator central               | Representa a jornada de referência: o titular entra em contato para consultar uma parcela não recebida.                              |
-| **Usuários rurais e com baixo letramento digital**        | Subgrupo do cidadão        | Enfrentam barreiras de conectividade e compreensão dos canais, que podem exigir atendimento alternativo.                             |
-| **Pessoas surdas ou com deficiência auditiva ou de fala** | Subgrupo do cidadão        | A interação exclusivamente sonora pode impedir o acesso, exigindo recursos de acessibilidade ou outro canal.                         |
-| **Familiares e pessoas de apoio**                         | Ator auxiliar, condicional | Podem tentar intermediar o contato, mas sua participação efetiva na URA e os limites de autenticação ainda precisam ser verificados. |
+| Segmento | Representação | Justificativa |
+| --- | --- | --- |
+| **Trabalhador requerente típico** | Ator central | Representa a jornada de referência: o titular entra em contato para consultar uma parcela não recebida. |
+| **Usuários rurais e com baixo letramento digital** | Subgrupo do cidadão | Enfrentam barreiras de conectividade e compreensão dos canais, que podem exigir atendimento alternativo. |
+| **Pessoas surdas ou com deficiência auditiva ou de fala** | Subgrupo do cidadão | A interação exclusivamente sonora pode impedir o acesso, exigindo recursos de acessibilidade ou outro canal. |
+| **Familiares e pessoas de apoio** | Ator auxiliar, condicional | Podem tentar intermediar o contato, mas sua participação efetiva na URA e os limites de autenticação ainda precisam ser verificados. |
 
 Os segmentos não serão tratados como categorias mutuamente exclusivas: uma pessoa pode, por exemplo, residir na zona rural e também apresentar deficiência auditiva.
 
@@ -435,13 +452,13 @@ Para preservar a legibilidade, aperfeiçoo o critério da Rodada 1:
 
 ### **Classificação dos cinco atores**
 
-| Ator                           | Localização      | Justificativa                                                                                                                                                                                                               |
-| ------------------------------ | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1. Empregador / RH**         | Fluxo de exceção | Pode precisar corrigir informações trabalhistas que originaram divergências, mas não participa normalmente do atendimento telefônico.                                                                                       |
-| **2. Receita Federal**         | Fluxo de exceção | Atua na origem dos dados cadastrais, quando divergências de CPF exigem regularização antes do prosseguimento da demanda.                                                                                                    |
-| **3. Banco recebedor**         | Fluxo de exceção | Participa da investigação de parcelas destinadas a contas de outras instituições financeiras, quando há divergência entre pagamento informado e crédito recebido.                                                           |
-| **4. Dataprev — organização**  | Mapa principal   | É responsável por serviços tecnológicos essenciais ao processamento do benefício. Sua atuação pode influenciar consultas, inconsistências e reprocessamentos, embora sua intervenção em cada ligação não esteja comprovada. |
-| **5. Sine estadual/municipal** | Mapa principal   | Realiza atendimento presencial e pode participar diretamente da resolução ou encaminhamento da demanda, com responsabilidades institucionais diferentes das SRTE do MTE.                                                    |
+| Ator | Localização | Justificativa |
+| --- | --- | --- |
+| **1. Empregador / RH** | Fluxo de exceção | Pode precisar corrigir informações trabalhistas que originaram divergências, mas não participa normalmente do atendimento telefônico. |
+| **2. Receita Federal** | Fluxo de exceção | Atua na origem dos dados cadastrais, quando divergências de CPF exigem regularização antes do prosseguimento da demanda. |
+| **3. Banco recebedor** | Fluxo de exceção | Participa da investigação de parcelas destinadas a contas de outras instituições financeiras, quando há divergência entre pagamento informado e crédito recebido. |
+| **4. Dataprev — organização** | Mapa principal | É responsável por serviços tecnológicos essenciais ao processamento do benefício. Sua atuação pode influenciar consultas, inconsistências e reprocessamentos, embora sua intervenção em cada ligação não esteja comprovada. |
+| **5. Sine estadual/municipal** | Mapa principal | Realiza atendimento presencial e pode participar diretamente da resolução ou encaminhamento da demanda, com responsabilidades institucionais diferentes das SRTE do MTE. |
 
 ### **Dataprev: organização e sistema são dois nós distintos?**
 
@@ -517,17 +534,17 @@ Mantenho o recorte da Rodada 1: **o episódio de resolução da demanda do traba
 
 ### **1. Reposicionamento dos atores**
 
-| Ator                                      | Classificação final | Justificativa                                                                                                                                                                       |
-| ----------------------------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Dataprev — organização**                | **Exceção**         | A participação recorrente ocorre por meio do sistema; a intervenção de equipes da Dataprev em correções ou reprocessamentos específicos não está demonstrada para cada atendimento. |
-| **Judiciário**                            | **Exceção**         | Pode atuar na resolução individual quando o cidadão judicializa uma demanda não solucionada administrativamente.                                                                    |
-| **Ministério Público**                    | **Exceção**         | Pode atuar em situações que demandem sua intervenção institucional, mas não constitui uma etapa habitual da resolução.                                                              |
-| **Defensorias Públicas**                  | **Exceção**         | Podem prestar assistência jurídica ao cidadão e promover medidas para solucionar sua demanda, quando cabível.                                                                       |
-| **INSS — execução do Contact Center 158** | **Principal**       | Participa institucionalmente da prestação do canal alternativo de atendimento por meio do TED com o MTE.                                                                            |
-| **MGI — governança do gov.br**            | **Exceção**         | Sua atuação torna-se relevante quando problemas de autenticação ou recuperação de acesso exigem solução fora do fluxo habitual.                                                     |
-| **Pescadores artesanais**                 | **Fora do mapa**    | Pertencem a outra modalidade do Seguro-Desemprego, excluída do recorte principal definido para o trabalhador formal.                                                                |
-| **INSS — legado do seguro-defeso**        | **Fora do mapa**    | Sua responsabilidade histórica nessa modalidade não integra o episódio de resolução do trabalhador formal estudado.                                                                 |
-| **Operadores do Contact Center 158**      | **Principal**       | Atendem diretamente os cidadãos encaminhados ao 158, podendo orientar e encaminhar suas demandas.                                                                                   |
+| Ator | Classificação final | Justificativa |
+| --- | --- | --- |
+| **Dataprev — organização** | **Exceção** | A participação recorrente ocorre por meio do sistema; a intervenção de equipes da Dataprev em correções ou reprocessamentos específicos não está demonstrada para cada atendimento. |
+| **Judiciário** | **Exceção** | Pode atuar na resolução individual quando o cidadão judicializa uma demanda não solucionada administrativamente. |
+| **Ministério Público** | **Exceção** | Pode atuar em situações que demandem sua intervenção institucional, mas não constitui uma etapa habitual da resolução. |
+| **Defensorias Públicas** | **Exceção** | Podem prestar assistência jurídica ao cidadão e promover medidas para solucionar sua demanda, quando cabível. |
+| **INSS — execução do Contact Center 158** | **Principal** | Participa institucionalmente da prestação do canal alternativo de atendimento por meio do TED com o MTE. |
+| **MGI — governança do gov.br** | **Exceção** | Sua atuação torna-se relevante quando problemas de autenticação ou recuperação de acesso exigem solução fora do fluxo habitual. |
+| **Pescadores artesanais** | **Fora do mapa** | Pertencem a outra modalidade do Seguro-Desemprego, excluída do recorte principal definido para o trabalhador formal. |
+| **INSS — legado do seguro-defeso** | **Fora do mapa** | Sua responsabilidade histórica nessa modalidade não integra o episódio de resolução do trabalhador formal estudado. |
+| **Operadores do Contact Center 158** | **Principal** | Atendem diretamente os cidadãos encaminhados ao 158, podendo orientar e encaminhar suas demandas. |
 
 ### **2. Distinção importante: Dataprev e INSS**
 
@@ -607,13 +624,13 @@ Para preservar a legibilidade, o diagrama principal mostrará apenas as relaçõ
 
 ### **2. Tipos de relação — cinco categorias**
 
-| Tipo mantido          | Tipos originais incorporados | Significado                                                                                     |
-| --------------------- | ---------------------------- | ----------------------------------------------------------------------------------------------- |
-| **1. Atendimento**    | Atendimento + orientação     | Interação para esclarecer dúvidas, prestar informações ou orientar o cidadão.                   |
-| **2. Encaminhamento** | Encaminhamento + reclamação  | Transferência da demanda para outro canal ou instância, incluindo escalonamento de reclamações. |
-| **3. Dados**          | Dados                        | Consulta, transmissão, atualização ou retorno de informações entre sistemas e instituições.     |
-| **4. Financeira**     | Dinheiro                     | Pagamento do benefício e remuneração contratual, com identificação do objeto de cada fluxo.     |
-| **5. Governança**     | Autoridade/norma + controle  | Definição de regras, supervisão, fiscalização e prestação de contas.                            |
+| Tipo mantido | Tipos originais incorporados | Significado |
+| --- | --- | --- |
+| **1. Atendimento** | Atendimento + orientação | Interação para esclarecer dúvidas, prestar informações ou orientar o cidadão. |
+| **2. Encaminhamento** | Encaminhamento + reclamação | Transferência da demanda para outro canal ou instância, incluindo escalonamento de reclamações. |
+| **3. Dados** | Dados | Consulta, transmissão, atualização ou retorno de informações entre sistemas e instituições. |
+| **4. Financeira** | Dinheiro | Pagamento do benefício e remuneração contratual, com identificação do objeto de cada fluxo. |
+| **5. Governança** | Autoridade/norma + controle | Definição de regras, supervisão, fiscalização e prestação de contas. |
 
 As cinco categorias serão diferenciadas por rótulos curtos nas setas, sem depender exclusivamente de cores.
 
@@ -625,12 +642,12 @@ As cinco categorias serão diferenciadas por rótulos curtos nas setas, sem depe
 
 A matriz será dividida por etapa e competência.
 
-| Situação identificada                                                          | R — Executa                                                      | A — Responde pelo resultado da etapa                                              |
-| ------------------------------------------------------------------------------ | ---------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| Parcela não liberada por problema de habilitação ou bloqueio administrativo    | Área competente do MTE                                           | **MTE — gestão do benefício**                                                     |
-| Parcela liberada, mas pagamento não processado corretamente pela CAIXA         | CAIXA — gestão de pagamentos                                     | **CAIXA — gestão de pagamentos**                                                  |
+| Situação identificada | R — Executa | A — Responde pelo resultado da etapa |
+| --- | --- | --- |
+| Parcela não liberada por problema de habilitação ou bloqueio administrativo | Área competente do MTE | **MTE — gestão do benefício** |
+| Parcela liberada, mas pagamento não processado corretamente pela CAIXA | CAIXA — gestão de pagamentos | **CAIXA — gestão de pagamentos** |
 | Crédito enviado para outra instituição, mas não localizado na conta de destino | CAIXA e banco recebedor, conforme a etapa em que ocorreu a falha | **Responsável pela etapa comprovadamente falha**, a identificar após rastreamento |
-| Informação cadastral inconsistente                                             | Órgão ou entidade responsável pelo dado de origem                | **Responsável pela correção cadastral**, conforme o tipo de inconsistência        |
+| Informação cadastral inconsistente | Órgão ou entidade responsável pelo dado de origem | **Responsável pela correção cadastral**, conforme o tipo de inconsistência |
 
 As colunas C e I serão preenchidas conforme a situação concreta, sem presumir acesso irrestrito de todos os atores aos dados do cidadão.
 
@@ -710,8 +727,8 @@ As setas entre o cidadão e os diferentes canais indicarão os contatos e recont
 
 A matriz manterá os responsáveis pelas etapas, mas acrescentará uma linha específica:
 
-| Atividade                                                                      | R                | A                    |
-| ------------------------------------------------------------------------------ | ---------------- | -------------------- |
+| Atividade | R | A |
+| --- | --- | --- |
 | Diagnóstico e coordenação da resolução interinstitucional do episódio completo | Não identificado | **Não identificado** |
 
 Essa ausência será registrada como **lacuna de responsabilização documental**, e não como prova definitiva de inexistência de coordenação.
